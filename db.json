@@ -1,0 +1,66 @@
+{
+    "post": [
+        {
+          "id": 1,
+          "title": "Red Chair",
+          "description": "A comfortable chair with a red velvet cushion. Perfect for relaxing by the fireplace.",
+          "likes": 25
+        },
+        {
+          "id": 2,
+          "title": "Vintage Clock",
+          "description": "An antique clock made of polished mahogany. It chimes every hour.",
+          "likes": 38
+        },
+        {
+          "id": 3,
+          "title": "Scented Candles Set",
+          "description": "A set of aromatic candles in lavender, vanilla, and sandalwood scents.",
+          "likes": 50
+        },
+        {
+          "id": 4,
+          "title": "Digital Drawing Tablet",
+          "description": "A high-resolution tablet for digital artists, with pressure-sensitive stylus.",
+          "likes": 62
+        },
+        {
+          "id": 5,
+          "title": "Travel Backpack",
+          "description": "A durable backpack with multiple compartments, perfect for adventurous trips.",
+          "likes": 77
+        },
+        {
+          "id": 6,
+          "title": "Coffee Maker Machine",
+          "description": "An espresso machine with a built-in milk frother for crafting perfect lattes.",
+          "likes": 44
+        },
+        {
+          "id": 7,
+          "title": "Yoga Mat",
+          "description": "A non-slip, eco-friendly mat for yoga and exercise routines at home or in the studio.",
+          "likes": 31
+        },
+        {
+          "id": 8,
+          "title": "Wireless Earbuds",
+          "description": "Sleek earbuds with noise-cancellation and long-lasting battery life.",
+          "likes": 55
+        },
+        {
+          "id": 9,
+          "title": "Smart LED Bulbs",
+          "description": "Energy-efficient LED bulbs controllable via smartphone app and voice commands.",
+          "likes": 82
+        },
+        {
+          "id": 10,
+          "title": "Gardening Tool Set",
+          "description": "A set of durable gardening tools including spade, rake, and pruners.",
+          "likes": 19
+        }
+      ]
+      
+      
+}
