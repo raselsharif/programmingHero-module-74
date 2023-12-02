@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import style from "./Post.module.css";
 
 const PostsPage = async () => {
   const res = await fetch("http://localhost:5000/post", {
@@ -11,7 +12,9 @@ const PostsPage = async () => {
   const posts = await res.json();
   return (
     <div className="px-5 pt-5">
-      <h2 className="text-center border-b pb-3 mb-6 text-2xl font-semibold">
+      <h2
+        className={`text-center border-b pb-3 mb-6 text-2xl font-semibold ${style.text_header}`}
+      >
         All Post: {posts.length}
       </h2>
       <div className="grid grid-cols-4 gap-3">
