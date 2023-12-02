@@ -1,7 +1,11 @@
 import React from "react";
 
 const PostsPage = async () => {
-  const res = await fetch("http://localhost:5000/post");
+  const res = await fetch("http://localhost:5000/post", {
+    next: {
+      revalidate: 5,
+    },
+  });
   const posts = await res.json();
   return (
     <div className="px-5 pt-5">
