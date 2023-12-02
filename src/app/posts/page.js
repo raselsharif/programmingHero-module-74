@@ -1,10 +1,12 @@
+import Link from "next/link";
 import React from "react";
 
 const PostsPage = async () => {
   const res = await fetch("http://localhost:5000/post", {
-    next: {
-      revalidate: 5,
-    },
+    // next: {
+    //   revalidate: 5,
+    // },
+    cache: "no-store",
   });
   const posts = await res.json();
   return (
@@ -18,6 +20,11 @@ const PostsPage = async () => {
             <p className="font-semibold">Title: {post.title}</p>
             <p className="my-2">{post.description}</p>
             <p className="font-semibold">likes: {post.likes}</p>
+            <Link href={`posts/${post.id}`}>
+              <button className="border border-white py-1 px-3 rounded-lg mt-4 hover:bg-white hover:text-black">
+                Details
+              </button>
+            </Link>
           </div>
         ))}
       </div>

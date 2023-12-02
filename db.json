@@ -10,19 +10,19 @@
       "id": 2,
       "title": "Vintage Clock",
       "description": "An antique clock made of polished mahogany. It chimes every hour.",
-      "likes": 40
+      "likes": 600
     },
     {
       "id": 3,
       "title": "Scented Candles Set",
       "description": "A set of aromatic candles in lavender, vanilla, and sandalwood scents.",
-      "likes": 50
+      "likes": 500
     },
     {
       "id": 4,
       "title": "Digital Drawing Tablet",
       "description": "A high-resolution tablet for digital artists, with pressure-sensitive stylus.",
-      "likes": 68
+      "likes": 88
     },
     {
       "id": 5,
